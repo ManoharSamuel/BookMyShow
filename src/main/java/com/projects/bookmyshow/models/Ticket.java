@@ -13,7 +13,7 @@ public class Ticket extends BaseModel{
     @ManyToOne
     private MovieShow movieShow;
     @OneToMany
-    private List<ShowSeat> showSeats;
+    private List<Seat> seats;
     @ManyToOne
     private User user;
     @OneToMany
